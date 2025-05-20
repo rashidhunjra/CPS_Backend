@@ -47,7 +47,7 @@ async function sendWhatsAppMessage(req, res) {
     type: "template",
     template: {
       name: "contact_notification", // Your approved WhatsApp template name
-      language: { code: "en" },
+      language: { code: "en_US" },
       components: [
         {
           type: "body",
