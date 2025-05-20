@@ -1,4 +1,3 @@
-// controllers/contactController.js
 const Contact = require("../models/ContactUs.Model");
 const nodemailer = require("nodemailer");
 const Joi = require("joi");
